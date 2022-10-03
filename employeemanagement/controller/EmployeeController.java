@@ -36,6 +36,7 @@ public class EmployeeController {
 
 	@GetMapping(value = "/api/employees/{id}")
 	public ResponseEntity<Employee> employeeDetail(@PathVariable int id) {
+		System.out.println{"inside employee details controller"};
 		try {
 			return new ResponseEntity<>(employeeService.findById(id), HttpStatus.OK);
 		} catch (Exception e) {
