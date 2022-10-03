@@ -21,6 +21,7 @@ public class DateTest {
 
 		Date date_1 = new Date();
 		System.out.println(date_1);
+		system.out.println("date format is MM/dd/yyyy");
 		SimpleDateFormat dt1 = new SimpleDateFormat("MM/dd/yyyy");
 		String date_str1 = dt1.format(date_1);
 		System.out.println(date_str1);
