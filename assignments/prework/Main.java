@@ -56,6 +56,7 @@ Scanner sc = new Scanner(System.in);
   			System.out.println("Input number is NOT a prime number.");
   		}
   		System.out.println("---------------------------------------------------------------------\n");
+		System.out.println("---------------------------------------------------------------------\n");
         }
 
 
