@@ -11,6 +11,7 @@ public class FP01Structured {
 	
 	public static void printAllNumbersInListStructured(List<Integer> numbers) {
 		for(int n:numbers) {
+			System.out.println("------------------");
 			System.out.println(n);
 		}
 	}
