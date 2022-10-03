@@ -22,6 +22,7 @@ Scanner sc = new Scanner(System.in);
 	   			System.out.println("Input number is NOT a palindrome number.");
 	   		}
 	   		System.out.println("---------------------------------------------------------------------\n");
+	       System.out.println("palindrome is Over");
 	       }
        
           	
