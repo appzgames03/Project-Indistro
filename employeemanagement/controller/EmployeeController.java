@@ -56,6 +56,7 @@ public class EmployeeController {
 		try {
 			return new ResponseEntity<>(employeeService.findByFirstName(firstName), HttpStatus.OK);
 		} catch (Exception e) {
+			System.out.println("no content is found");
 			return new ResponseEntity<>(HttpStatus.NO_CONTENT);
 		}
 
