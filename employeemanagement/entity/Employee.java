@@ -22,6 +22,7 @@ public class Employee {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "Id")
 	private int id;
+	private String mid;
 	
 	@Column(name = "Email")
 	private String email;
