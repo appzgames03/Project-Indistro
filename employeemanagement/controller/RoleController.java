@@ -33,5 +33,11 @@ public class RoleController {
 		List<Role> roles = roleService.findAll();
 		return roles;
 	}
+	
+	@GetMapping(value = "/api/role")
+	public List<Role> roleDetails() {
+		
+		return roles;
+	}
 
 }
