@@ -38,7 +38,7 @@ public class DateTest {
 			e.printStackTrace();
 		}
 
-		System.out.println(date_3);
+		System.out.println(date_3+"date");
 		SimpleDateFormat dt3 = new SimpleDateFormat("MM/dd/yyyy");
 		String date_str3 = dt3.format(date_3);
 		System.out.println(date_str3);

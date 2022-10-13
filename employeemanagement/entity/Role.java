@@ -25,7 +25,8 @@ public class Role {
 	public int getId() {
 		return id;
 	}
-
+	
+	//sets the id 
 	public void setId(int id) {
 		this.id = id;
 	}
