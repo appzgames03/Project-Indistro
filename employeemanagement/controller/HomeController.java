@@ -11,4 +11,8 @@ public class HomeController {
 	public String home() {
 		return ("<h1> Assignment 6 </h1>");
 	}
+	@PostMapping("/post")
+	public String post(){
+		return null;
+	}
 }
