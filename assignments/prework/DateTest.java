@@ -42,6 +42,7 @@ public class DateTest {
 		SimpleDateFormat dt3 = new SimpleDateFormat("MM/dd/yyyy");
 		String date_str3 = dt3.format(date_3);
 		System.out.println(date_str3);
+		System.out.println("end of work");
 	}
 
 }
