@@ -33,6 +33,7 @@ public class DateTest {
 		System.out.println(date_str2);
 
 		Date date_3 = null;
+		Date date=null;
 		try {
 			date_3 = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss").parse(date_str2);
 		} catch (ParseException e) {
