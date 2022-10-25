@@ -162,6 +162,7 @@ Scanner sc = new Scanner(System.in);
 			System.out.println("Invalid choice. Enter a valid no.\n");
 			
 			}
+				System.out.println("------------------");
 			
 			 
 			
