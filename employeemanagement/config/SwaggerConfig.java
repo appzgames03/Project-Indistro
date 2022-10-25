@@ -29,5 +29,5 @@ public class SwaggerConfig {
 		return new ApiInfoBuilder().title("API Rest").description("\"API Rest\"").version("1.0.0")
 				.license("Apache License Version 2.0").licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
 				.build();
-	}
+	}//end of class
 }
