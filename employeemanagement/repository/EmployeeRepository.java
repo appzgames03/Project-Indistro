@@ -10,5 +10,6 @@ import com.greatlearning.employeemanagement.entity.Employee;
 @Repository
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 	List<Employee> findByFirstName(String firstName);
+	System.out.println(firstName);
 
 }
