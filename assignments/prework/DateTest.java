@@ -31,6 +31,7 @@ public class DateTest {
 		SimpleDateFormat dt2 = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
 		String date_str2 = dt2.format(date_2);
 		System.out.println(date_str2);
+		System.out.println("--------");
 
 		Date date_3 = null;
 		Date date=null;
