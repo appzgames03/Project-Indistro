@@ -17,7 +17,7 @@ public class RoleController {
 
 	@Autowired
 	RoleInterface roleService;
-
+/// postmapping 
 	@PostMapping("/api/roles")
 	public ResponseEntity<Role> save(@RequestBody Role role) {
 		try {
