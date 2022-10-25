@@ -8,7 +8,7 @@ public class DateTest {
 		// return (String) result.getRow(0).getColumn("max").getValue().toString();
 
 		// SimpleDateFormat dt = new SimpleDateFormat("yyyy-mm-dd hh:mm:ss");
-		// Date date = null;
+		// Date date = null;//456
 		// try {
 		// date = dt.parse(gasFlowDate);
 		// } catch (ParseException e) {
