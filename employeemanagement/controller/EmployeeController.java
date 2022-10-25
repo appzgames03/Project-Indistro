@@ -21,7 +21,7 @@ import com.greatlearning.employeemanagement.service.EmployeeService;
 
 @RestController
 public class EmployeeController {
-
+System.out.println("Employee Controller");
 	@Autowired
 	EmployeeService employeeService;
 
