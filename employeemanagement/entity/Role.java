@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 import lombok.Data;
-
+// project example
 @Data
 @Entity
 @Table(name = "roles")
