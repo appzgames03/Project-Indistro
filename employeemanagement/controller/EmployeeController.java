@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.greatlearning.employeemanagement.entity.Employee;
 import com.greatlearning.employeemanagement.repository.EmployeeRepository;
 import com.greatlearning.employeemanagement.service.EmployeeService;
-
+//rest controller
 @RestController
 public class EmployeeController {
 System.out.println("Employee Controller");
