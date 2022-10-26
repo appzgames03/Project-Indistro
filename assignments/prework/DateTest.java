@@ -1,7 +1,7 @@
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
+//1234567
 public class DateTest {
 	public static void main(String[] args) {
 		// return (String) result.getRow(0).getColumn("max").getValue().toString();
