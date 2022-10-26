@@ -2,7 +2,7 @@ package com.greatlearning.employeemanagement.config;
 
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Configuration;//123
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import springfox.documentation.builders.ApiInfoBuilder;
