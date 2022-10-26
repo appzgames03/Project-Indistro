@@ -3,7 +3,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateTest {
-//123
 	public static void main(String[] args) {
 		// return (String) result.getRow(0).getColumn("max").getValue().toString();
 
@@ -45,7 +44,7 @@ public class DateTest {
 		SimpleDateFormat dt3 = new SimpleDateFormat("MM/dd/yyyy");
 		String date_str3 = dt3.format(date_3);
 		System.out.println(date_str3);
-		System.out.println("end of work");
+		
 	}
 
 }
