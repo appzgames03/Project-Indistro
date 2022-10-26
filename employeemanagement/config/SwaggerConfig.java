@@ -30,4 +30,4 @@ public class SwaggerConfig {
 				.license("Apache License Version 2.0").licenseUrl("https://www.apache.org/licenses/LICENSE-2.0\"")
 				.build();
 	}//end of class //123
-}
+}//end1
