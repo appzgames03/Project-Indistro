@@ -11,6 +11,6 @@ public interface RoleInterface {
 	public Role findById(int Id);
 	
 	public Role save(Role theRole);
-
+	// public Role save();
 	public Role deleteById(int theId);
 }
