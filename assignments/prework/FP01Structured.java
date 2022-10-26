@@ -13,7 +13,7 @@ public class FP01Structured {
 		for(int n:numbers) {
 			System.out.println("------------------");
 			System.out.println(n);
-			//sysout code
+			System.out.println("-----------");
 		}
 	}
 	
