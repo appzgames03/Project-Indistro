@@ -1,10 +1,10 @@
 package assignments.prework;
 
 import java.util.Scanner;
-//importgasf
+//importgsasf
 
 public class Main {
-
+//dfghjkl
 Scanner sc = new Scanner(System.in);
 
        //function to checkPalindrome
